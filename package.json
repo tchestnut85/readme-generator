@@ -1,14 +1,26 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "README Generator App",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Tom Chestnut",
+  "license": "MIT",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchestnut85/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/tchestnut85/readme-generator/issues"
+  },
+  "homepage": "https://github.com/tchestnut85/readme-generator#readme"
 }

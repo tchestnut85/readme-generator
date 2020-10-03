@@ -1,9 +1,9 @@
 
-  # undefined
+  # AniGame
   (https://img.shields.io/badge/license-undefined-blue.svg)
 
   ## Description
-  undefined
+  Find anime related to your favorite video games!
 
   ## Table of Contents
   * [Installation](#installation)

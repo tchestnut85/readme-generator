@@ -1,11 +1,11 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
+function generateMarkdown(answers) {
   return `
-  # ${data.title}
-  (https://img.shields.io/badge/license-${data.license}-blue.svg)
+  # ${answers.title}
+  (https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
   ## Description
-  ${data.description}
+  ${answers.description}
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,20 +15,20 @@ function generateMarkdown(data) {
   * [License](#license)
 
   ## Installation
-  ${data.installation}
+  ${answers.installation}
 
   ## Usage
-  ${data.usage}
+  ${answers.usage}
 
   ## Contributing
-  ${data.contributing}
+  ${answers.contributing}
 
   ## Tests
-  ${data.tests}
+  ${answers.tests}
 
   ## License
-  ![License](https://img.shields.io/badge/license-${data.license}-blue.svg)
-  This app is licensed under the ${data.license}.
+  ![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+  This app is licensed under the ${answers.license}.
 `;
 }
 

@@ -29,7 +29,7 @@ const questions = [
                 return false;
             }
         }
-    }
+    },
     {
         type: 'confirm',
         name: 'contents',

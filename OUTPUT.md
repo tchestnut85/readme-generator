@@ -1,34 +1,36 @@
 
-  # PROJECT NAME GOES HERE
-  ![License](https://img.shields.io/badge/License%3A-MIT-blue.svg)
+  # AniGame
+  ![License](https://img.shields.io/badge/License%3A-GNU%20v2.0-blue.svg)
 
   ## Description
-  DESCRIPTION
+  Search your favorite game and find anime related to the title.
+
+  ![AniGame Screenshot](./assets/images/img-1.JPG)
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Credits](#credits)
   * [Contributing](#contributing)
   * [Tests](#tests)
+  * [Questions](#questions)
   * [License](#license)  
-  
+
   ## Installation
-  INSTAILLLING THIS THINGS
+  Clone or download the repository.
 
   ## Usage
-  USAGE INFO GOES HERE
+  Type in the searchbox to find your favorite video game and related anime.
 
   ## Contributing
-  SEND ME AN EMAIL
+  Contact me if you'd like to contribute to the project.
 
   ## Tests
-  TEST THE TING OUT
+  Search a game title to see if results appear.
 
   ## Questions
-  Please visit my **[GitHub profile](https://github/TCHESTNUT85/)** to check out this and other projects I've created and contributed to.
-  If you have any specific questions about this project, please contact me at <TCHESTNUT85@GMAIL.COM>.
+  Please visit my **[GitHub profile](https://github.com/tchestnut85/)** to check out this and other projects I've created and contributed to.
+  If you have any specific questions about this project, please contact me at <tchestnut85@gmail.com>.
 
   ## License
-  ![License](https://img.shields.io/badge/License%3A-MIT-blue.svg)
-  This app is licensed under the MIT license.
+  ![License](https://img.shields.io/badge/License%3A-GNU%20v2.0-blue.svg)
+  This app is licensed under the GNU v2.0 license.

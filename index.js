@@ -33,7 +33,7 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'Provide instructions for installing your project (OPTIONAL)'
+        message: 'Include any installation instructions for your project here (OPTIONAL)',
     },
     {
         type: 'input',
@@ -49,20 +49,50 @@ const questions = [
         }
     },
     {
+        type: 'confirm',
+        name: 'confirmScreenshot',
+        message: 'Do you want to include a screenshot of your project?',
+        default: false
+    },
+    {
         type: 'input',
-        name: 'contributing',
+        name: 'screenshotText',
+        message: 'Enter alt text description for your screenshot:',
+        when: ({ confirmScreenshot }) => {
+            if (confirmScreenshot) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'screenshotImage',
+        message: 'Provide the relative file path for your screenshot image:',
+        when: ({ confirmScreenshot }) => {
+            if (confirmScreenshot) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'contributeInstructions',
         message: 'If you would like to include guidelines for others to contribute to your project, enter them here. (OPTIONAL)',
     },
     {
         type: 'input',
-        name: 'tests',
+        name: 'testInstructions',
         message: 'If you would like to include testing instructions for your project, enter them here. (OPTIONAL)',
     },
     {
         type: 'list',
         name: 'license',
         message: 'Select which License you would like to use:',
-        choices: ['MIT', 'Apache2.0', 'GNUv2.0', 'GNUv3.0', 'ISC']
+        choices: ['MIT', 'Apache 2.0', 'GNU v2.0', 'GNU v3.0', 'ISC']
     },
     {
         type: 'input',
@@ -81,40 +111,15 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'What is your Email address? (REQUIRED)',
-    },
-    {
-        type: 'confirm',
-        name: 'confirmPartner',
-        message: 'Did you work with anyone on this project that you should credit?',
-        default: false
-    },
-    {
-        type: 'input',
-        name: 'partnerName',
-        message: 'What is their name?',
-        when: ({ confirmPartner }) => {
-            if (confirmPartner) {
+        validate: email => {
+            if (email) {
                 return true;
             } else {
                 return false;
             }
         }
     },
-    {
-        type: 'input',
-        name: 'partnerGithub',
-        message: 'What is their GitHub username?',
-        when: ({ confirmPartner }) => {
-            if (confirmPartner) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-    }
 ];
-
-// console.log(questions);
 
 // function to write README file
 function writeToFile(fileName, questions) {

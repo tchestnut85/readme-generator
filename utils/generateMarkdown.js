@@ -7,12 +7,7 @@ function generateMarkdown(answers) {
   ## Description
   ${answers.description}
 
-  ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [License](#license)
+  ${answers.contents}
 
   ## Installation
   ${answers.installation}
@@ -31,7 +26,7 @@ function generateMarkdown(answers) {
   If you have any specific questions about this project, please contact me at <${answers.email}>.
 
   ## License
-  ![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+  ![License](https://img.shields.io/badge/License%3A-${answers.license}-blue.svg)
   This app is licensed under the ${answers.license} license.
 `;
 }

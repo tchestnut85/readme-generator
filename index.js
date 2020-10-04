@@ -34,7 +34,21 @@ const questions = [
         type: 'confirm',
         name: 'contents',
         message: 'Would you like to include a table of contents? (Optional)',
-        default: false
+        default: true,
+        validate: contentsInput => {
+            if (contentsInput) {
+                return `
+                ## Table of Contents
+                * [Installation](#installation)
+                * [Usage](#usage)
+                * [Contributing](#contributing)
+                * [Tests](#tests)
+                * [License](#license)
+                `;
+            } else {
+                return false;
+            }
+        }
     },
     {
         type: 'input',
@@ -68,7 +82,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Select which License you would like to use:',
-        choices: ['MIT', 'Apache 2.0', 'GNU v2.0', 'GNU v3.0', 'ISC']
+        choices: ['MIT', 'Apache2.0', 'GNUv2.0', 'GNUv3.0', 'ISC']
     },
     {
         type: 'input',

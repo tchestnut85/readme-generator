@@ -1,29 +1,28 @@
 
-  # AniGame
-  (https://img.shields.io/badge/License%3A-GNU License v3.0-blue.svg)
+  # TITLE OF THING
+  ![License](https://img.shields.io/badge/License%3A-GNUv2.0-blue.svg)
 
   ## Description
-  play stuff
+  THING DESCRIPTION
 
-  ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [License](#license)
+  undefined
 
   ## Installation
-  install it good
+  HJNOGRWJH
 
   ## Usage
-  use it good 
+  iotiw
 
   ## Contributing
-  
+  jnrsgn
 
   ## Tests
-  
+  ojwgiog
+
+  ## Questions
+  Please visit my **[GitHub profile](https://github/tchestnut85/)** to check out this and other projects I've created and contributed to.
+  If you have any specific questions about this project, please contact me at <tchestnut85@gmail.com>.
 
   ## License
-  ![License](https://img.shields.io/badge/license-GNU License v3.0-blue.svg)
-  This app is licensed under GNU License v3.0.
+  ![License](https://img.shields.io/badge/License%3A-GNUv2.0-blue.svg)
+  This app is licensed under the GNUv2.0 license.

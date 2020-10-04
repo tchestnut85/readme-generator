@@ -16,17 +16,18 @@
   * [License](#license)  
 
   ## Installation
-  Make sure Node.js is installed on your computer. Clone or download the repository from GitHub. You may need to initialize Inquirer by running "npm install inquirer" 
+  - Make sure Node.js is installed on your computer. 
+  - Clone or download the repository from GitHub. 
+  - You may need to initialize Inquirer by running `npm install inquirer` in the terminal.
 
   ## Usage
   This app can be used to create professional stlye README documents for any project you create. After completing the series of questions, you will have a new README file you can use for your project.
 
-  ### Instructions 
-  * The user will be prompted with a series of questions.
-  * Based on the answers from the user, the various sections of the generated README will be filled in. The questions types used include answers with text input, yes/no confirmation and a list. 
-  * Once all the questions have been answered, a confirmation will appear in the command line. 
-  * A new README file named OUTPUT.md will be created with answers from the user populating the various section of the README.
-  * This OUTPUT.md file should be copied into the repo you are making the README for and the name changed to README.md
+  * You will be prompted with a series of questions to gather information for your project.
+  * The question types used include text input, yes/no confirmation and a list. Type in text input answers, type Y or N then enter for confirmation answers, and use the up/down arrows for the list then enter to select the answer.
+  * Once all the questions have been answered, your answers will print to the terminal and a confirmation will also appear in the terminal. 
+  * A new README file named OUTPUT.md will be created with your answers populating the various sections of the README.
+  * This OUTPUT.md file should be copied into the repo you are creating the README for and the name changed to README.md.
 
   ## Contributing
   If you would like to contribute to this app, please contact me by email listed below.

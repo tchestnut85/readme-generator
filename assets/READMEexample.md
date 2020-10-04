@@ -4,7 +4,7 @@
   ## Description
   AniGame is an app where you can search for your favorite video game and find anime related to that title. You can also find the link to the streaming service that streams the anime.
 
-  ![Screenshot of AniGame app](./assets/images/img-1.JPG)
+  ![Screenshot of AniGame app](./images/img-1.JPG)
 
   ## Table of Contents
   * [Installation](#installation)

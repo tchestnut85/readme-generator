@@ -1,28 +1,34 @@
 
-  # TITLE OF THING
-  ![License](https://img.shields.io/badge/License%3A-GNUv2.0-blue.svg)
+  # PROJECT NAME GOES HERE
+  ![License](https://img.shields.io/badge/License%3A-MIT-blue.svg)
 
   ## Description
-  THING DESCRIPTION
+  DESCRIPTION
 
-  undefined
-
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [License](#license)  
+  
   ## Installation
-  HJNOGRWJH
+  INSTAILLLING THIS THINGS
 
   ## Usage
-  iotiw
+  USAGE INFO GOES HERE
 
   ## Contributing
-  jnrsgn
+  SEND ME AN EMAIL
 
   ## Tests
-  ojwgiog
+  TEST THE TING OUT
 
   ## Questions
-  Please visit my **[GitHub profile](https://github/tchestnut85/)** to check out this and other projects I've created and contributed to.
-  If you have any specific questions about this project, please contact me at <tchestnut85@gmail.com>.
+  Please visit my **[GitHub profile](https://github/TCHESTNUT85/)** to check out this and other projects I've created and contributed to.
+  If you have any specific questions about this project, please contact me at <TCHESTNUT85@GMAIL.COM>.
 
   ## License
-  ![License](https://img.shields.io/badge/License%3A-GNUv2.0-blue.svg)
-  This app is licensed under the GNUv2.0 license.
+  ![License](https://img.shields.io/badge/License%3A-MIT-blue.svg)
+  This app is licensed under the MIT license.

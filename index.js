@@ -67,8 +67,8 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'Select which license you would like to use:',
-        choices: ['Apache License 2.0', 'GNU License v2.0', 'GNU License v3.0', 'MIT License', 'ISC License', 'SIL Open Font License 1.1', 'Creative Commons Zero v1.0 Universal License']
+        message: 'Select which License you would like to use:',
+        choices: ['MIT', 'Apache 2.0', 'GNU v2.0', 'GNU v3.0', 'ISC']
     },
     {
         type: 'input',
@@ -94,11 +94,11 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, questions) {
-    fileName = fs.writeFile('new-file.md', generateMarkdown((questions)), function (err) {
+    fileName = fs.writeFile('OUTPUT.md', generateMarkdown((questions)), function (err) {
         if (err) {
             console.log('Error: ' + err);
         } else {
-            console.log('README created!');
+            console.log('=============== README created as OUTPUT.md! ===============');
         }
     });
 };
@@ -108,7 +108,7 @@ function init() {
     inquirer.prompt(questions)
         .then(answers => {
             console.log(answers);
-            writeToFile('new-file.md', answers);
+            writeToFile('OUTPUT.md', answers);
         });
 };
 

@@ -36,6 +36,11 @@
   Please visit my **[GitHub profile](https://github.com/tchestnut85/)** to check out this and other projects I've created and contributed to.
   If you have any specific questions about this project, please contact me at <tchestnut85@gmail.com>.
 
+  ## Links
+  **[Click here](https://github.com/tchestnut85/readme-generator/)** to visit this project's GitHub repo.
+  View a walkthrough video **[here](https://drive.google.com/file/d/1V5U9urFtRTVPT2B9ezQJArYRba-MC0RN/view?usp=sharing)**.
+  See a sample README generated from the app **[here](https://github.com/tchestnut85/readme-generator/blob/master/assets/READMEexample.md)**.
+
   ## License
   ![License](https://img.shields.io/badge/License%3A-MIT-green.svg)
   This app is licensed under the MIT license.

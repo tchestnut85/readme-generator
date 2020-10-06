@@ -1,11 +1,11 @@
 
-  # AniGame
-  ![License](https://img.shields.io/badge/License%3A-GNU%20v2.0-blue.svg)
+  # README Generator
+  ![License](https://img.shields.io/badge/License%3A-MIT-green.svg)
 
   ## Description
-  Search your favorite game and find anime related to the title.
+  This is a README generator to create professional looking READMEs quickly. This app uses Node.js and Inquirer.js from NPM to prompt questions in the command line. A README will be generated as OUTPUT.md which should be copied over to the repo you are making the README for.
 
-  ![AniGame Screenshot](./assets/images/img-1.JPG)
+  ![README Generator Answers list](./assets/images/img-2.JPG)
 
   ## Table of Contents
   * [Installation](#installation)
@@ -16,21 +16,25 @@
   * [License](#license)  
 
   ## Installation
-  Clone or download the repository.
+  Make sure Node.js is installed on your computer. Clone or download the repository from GitHub. You may need to initialize Inquirer by running "npm install inquirer" 
 
   ## Usage
-  Type in the searchbox to find your favorite video game and related anime.
+  This app can be used to create professional stlye README documents for any project you create. After completing the series of questions, you will have a new README file you can use for your project.
+
+  ### Instructions 
+  * The user will be prompted with a series of questions.
+  * Based on the answers from the user, the various sections of the generated README will be filled in. The questions types used include answers with text input, yes/no confirmation and a list. 
+  * Once all the questions have been answered, a confirmation will appear in the command line. 
+  * A new README file named OUTPUT.md will be created with answers from the user populating the various section of the README.
+  * This OUTPUT.md file should be copied into the repo you are making the README for and the name changed to README.md
 
   ## Contributing
-  Contact me if you'd like to contribute to the project.
-
-  ## Tests
-  Search a game title to see if results appear.
+  If you would like to contribute to this app, please contact me by email listed below.
 
   ## Questions
   Please visit my **[GitHub profile](https://github.com/tchestnut85/)** to check out this and other projects I've created and contributed to.
   If you have any specific questions about this project, please contact me at <tchestnut85@gmail.com>.
 
   ## License
-  ![License](https://img.shields.io/badge/License%3A-GNU%20v2.0-blue.svg)
-  This app is licensed under the GNU v2.0 license.
+  ![License](https://img.shields.io/badge/License%3A-MIT-green.svg)
+  This app is licensed under the MIT license.

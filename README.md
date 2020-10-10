@@ -12,6 +12,7 @@
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Questions](#questions)
+  * [Links](#links)
   * [License](#license)  
 
   ## Installation

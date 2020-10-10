@@ -123,11 +123,11 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, questions) {
-    fileName = fs.writeFile('OUTPUT.md', generateMarkdown((questions)), function (err) {
+    fileName = fs.writeFile('./dist/README.md', generateMarkdown((questions)), function (err) {
         if (err) {
             console.log('Error: ' + err);
         } else {
-            console.log('=============== README created as OUTPUT.md! ===============');
+            console.log('=============== README created in /dist/README.md! ===============');
         }
     });
 };
@@ -137,7 +137,7 @@ function init() {
     inquirer.prompt(questions)
         .then(answers => {
             console.log(answers);
-            writeToFile('OUTPUT.md', answers);
+            writeToFile('./dist/README.md', answers);
         });
 };
 
